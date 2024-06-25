@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">S
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVO_ADAPP_HTML</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #040303; /* Fundo preto para melhor visualizacao dos videos */
+        }
+        iframe.small {
+            margin: 10px;
+            width: 23%;
+            height: 60px;
+            opacity: 0; /* Visibilidade para 0% */
+            pointer-events: none; /* Bloqueia interacoes */
+        }
+        .large-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+            overflow: hidden;
+        }
+        iframe.large {
+            width: 100%;
+            height: 100%;
+            border: none;
+            object-fit: cover; /* Ajusta o video para cobrir toda a area do container */
+            filter: contrast(1.2) brightness(1.1) saturate(1.2); /* Melhora a qualidade da imagem */
+        }
+        .subscribe-button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 20;
+        }
+    </style>
+</head>
+<body>
+    <iframe class="small" src="https://www.youtube.com/embed/EhZdQRyXAh8?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/uOF2Q61p0DU?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/RQGVT2mH9vU?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/hZQOtQgN9To?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/GyFwGmDtGG8?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/zHWO9AwcqqE?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/8HT8SAtfFKw?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/SW71oB5kqbI?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/JIKiuYhWJJ8?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/3-SeTskrxyM?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/Ob7K6MmA3uQ?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/3fpfpZx7v6U?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/yG7IDVg1ZGQ?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/RxoSfjh6sL4?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/GzMRKSYg96Q?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/F3xYrosvwf4?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    <iframe class="small" src="https://www.youtube.com/embed/xueHP4GoAfc?autoplay=1&mute=1&vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+    
+    <div class="large-container">
+        <iframe class="large" src="https://www.youtube.com/embed/g2UMaOuuank?autoplay=1&mute=1&vq=hd1080&rel=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <a class="subscribe-button" href="https://www.youtube.com/channel/UCYO6y3dFZs5KlBocmYO_BkA?sub_confirmation=1" target="_blank">GOSTOU</a>
+</body>
+</html>
